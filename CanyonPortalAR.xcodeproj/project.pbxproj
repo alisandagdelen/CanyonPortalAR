@@ -14,6 +14,7 @@
 		3BD4C382200A4B9300DA2D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4C380200A4B9300DA2D6F /* LaunchScreen.storyboard */; };
 		3BD4C38D200A4B9400DA2D6F /* CanyonPortalARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4C38C200A4B9400DA2D6F /* CanyonPortalARTests.swift */; };
 		3BD4C398200A4B9400DA2D6F /* CanyonPortalARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4C397200A4B9400DA2D6F /* CanyonPortalARUITests.swift */; };
+		3BD4C3A7200A4DAD00DA2D6F /* Portal.scn in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4C3A6200A4DAD00DA2D6F /* Portal.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3BD4C393200A4B9400DA2D6F /* CanyonPortalARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanyonPortalARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD4C397200A4B9400DA2D6F /* CanyonPortalARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanyonPortalARUITests.swift; sourceTree = "<group>"; };
 		3BD4C399200A4B9400DA2D6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD4C3A6200A4DAD00DA2D6F /* Portal.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Portal.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3BD4C377200A4B9300DA2D6F /* AppDelegate.swift */,
 				3BD4C379200A4B9300DA2D6F /* ViewController.swift */,
+				3BD4C3A6200A4DAD00DA2D6F /* Portal.scn */,
 				3BD4C37B200A4B9300DA2D6F /* Main.storyboard */,
 				3BD4C37E200A4B9300DA2D6F /* Assets.xcassets */,
 				3BD4C380200A4B9300DA2D6F /* LaunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				3BD4C382200A4B9300DA2D6F /* LaunchScreen.storyboard in Resources */,
 				3BD4C37F200A4B9300DA2D6F /* Assets.xcassets in Resources */,
+				3BD4C3A7200A4DAD00DA2D6F /* Portal.scn in Resources */,
 				3BD4C37D200A4B9300DA2D6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
