@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3BD4C378200A4B9300DA2D6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4C377200A4B9300DA2D6F /* AppDelegate.swift */; };
-		3BD4C37A200A4B9300DA2D6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4C379200A4B9300DA2D6F /* ViewController.swift */; };
+		3BD4C37A200A4B9300DA2D6F /* PortalSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD4C379200A4B9300DA2D6F /* PortalSceneViewController.swift */; };
 		3BD4C37D200A4B9300DA2D6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4C37B200A4B9300DA2D6F /* Main.storyboard */; };
 		3BD4C37F200A4B9300DA2D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4C37E200A4B9300DA2D6F /* Assets.xcassets */; };
 		3BD4C382200A4B9300DA2D6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD4C380200A4B9300DA2D6F /* LaunchScreen.storyboard */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		3BD4C374200A4B9300DA2D6F /* CanyonPortalAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanyonPortalAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD4C377200A4B9300DA2D6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BD4C379200A4B9300DA2D6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3BD4C379200A4B9300DA2D6F /* PortalSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalSceneViewController.swift; sourceTree = "<group>"; };
 		3BD4C37C200A4B9300DA2D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BD4C37E200A4B9300DA2D6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BD4C381200A4B9300DA2D6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3BD4C377200A4B9300DA2D6F /* AppDelegate.swift */,
-				3BD4C379200A4B9300DA2D6F /* ViewController.swift */,
+				3BD4C379200A4B9300DA2D6F /* PortalSceneViewController.swift */,
 				3BD4C37B200A4B9300DA2D6F /* Main.storyboard */,
 				3BD4C37E200A4B9300DA2D6F /* Assets.xcassets */,
 				3BD4C380200A4B9300DA2D6F /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BD4C37A200A4B9300DA2D6F /* ViewController.swift in Sources */,
+				3BD4C37A200A4B9300DA2D6F /* PortalSceneViewController.swift in Sources */,
 				3BD4C378200A4B9300DA2D6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BE9CR5D8N;
 				INFOPLIST_FILE = CanyonPortalAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alisandagdelen.CanyonPortalAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4BE9CR5D8N;
 				INFOPLIST_FILE = CanyonPortalAR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alisandagdelen.CanyonPortalAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
